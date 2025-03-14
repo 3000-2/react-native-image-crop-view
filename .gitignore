@@ -1,0 +1,54 @@
+# Node.js 관련
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# 컴파일된 코드
+lib/
+dist/
+build/
+
+# IDE 및 편집기 관련
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*~
+
+# 의존성 캐시
+.npm/
+.yarn/
+.pnpm-store/
+
+# 테스트 관련
+coverage/
+
+# React Native 관련
+*.jsbundle
+*.tsbuildinfo
+.watchmanconfig
+
+# iOS 관련
+ios/Pods/
+ios/build/
+ios/Podfile.lock
+*.xcworkspace
+*.xcuserstate
+ios/.xcode.env.local
+
+# Android 관련
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.cxx/
+android/captures/
+android/keystores/debug.keystore
+
+# 기타
+.env
+.env.*
+*.log
+*.tgz
